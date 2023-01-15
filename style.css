@@ -113,9 +113,9 @@ margin-bottom: 30px;
 }
 
 .banner-area-image{
-    width: 100%;
     margin-top: 50px;
     padding-bottom: 45px;
+    text-align: center;
 }
 
 .banner-area-image > img{
