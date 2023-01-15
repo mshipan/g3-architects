@@ -1,0 +1,671 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 0 240px;
+}
+/* ----------------------
+    Navbar Header Section
+    ------------------------ */
+
+.header{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.header-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > h1{
+    font-weight: 700;
+    font-size: 45px;
+    /* text-align: center; */
+    color: #131313;
+}
+
+/* .navbar{
+    
+} */
+
+.navbar > ul{
+    display: flex;
+    gap: 70px;
+}
+
+.navbar > ul > li{
+    list-style: none;
+}
+
+.navbar > ul > li > a{
+font-weight: 500;
+font-size: 18px;
+color: #424242;
+text-decoration: none;
+}
+
+/* ----------------------
+    Brand New Area Section
+    ------------------------ */
+
+.brand-new{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.brand-new-area{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-new-title > h1{
+font-weight: 700;
+font-size: 4rem;
+text-align: center;
+color: #131313;
+margin-bottom: 30px;
+}
+
+.brand-new-description > p{
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #FFFFFF;
+
+    padding: 20px 25px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+.brand-new-button .btn-primary:hover{
+    background: #e87d00;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+/* ----------------------
+    Banner Area Section
+    ------------------------ */
+.banner{
+    width: 100%;
+}
+
+.banner-area{
+    display: flex;
+}
+
+.banner-area-image{
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 45px;
+}
+
+/* -----------------
+    Quick List Area Section
+    ------------------------- */
+.quick-list{
+    width: 100%;
+    margin-top: 85px;
+}
+
+.quick-list-area{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+}
+
+.quick-list-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.list-title > h3{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 24px;
+}
+
+.list-description > p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.list-button .btn-primary:hover{
+    background: #e87d00;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+/* -----------------
+    Feature Area Section
+    ---------------------- */
+.feature{
+    width: 100%;
+    margin-top: 130px;
+}
+
+.feature-area{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+.feature-text-title > h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.feature-text-description > p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature-content-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.feature-content-box-title > h5{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.feature-content-box-description > p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.feature-image-area{
+    position: relative;
+}
+
+.feature-image-area-text{
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 35px;
+
+    position: absolute;
+    bottom: -60px;
+    left: -80px;
+}
+
+.feature-image-area-text > h1{
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.feature-image-area-text > p{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* -----------------
+    Some Facts Area Section
+    ------------------------- */
+.some-facts{
+    width: 100%;
+    margin-top: 130px;
+}
+
+.some-facts-area{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 240px;
+}
+
+.some-facts-text > h1{
+font-weight: 700;
+font-size: 2.813rem;
+color: #131313;
+margin-bottom: 24px;
+}
+
+.some-facts-text > p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
+}
+
+.some-facts-icon{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.some-facts-icon-box{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: transform 2s;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+
+.some-facts-icon-box:hover{
+    transform: rotate(360deg);
+}
+
+.some-facts-icon-box > img{
+    margin-bottom: 10px;
+}
+
+.some-facts-icon-box > h2{
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.some-facts-icon-box > p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* ----------------------
+    Contact Us Area Section
+    ------------------------- */
+.contact-us{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.contact-us-area{
+    margin: 0 240px;
+    background-image: url(images/visitor-signup.jpg);
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    height: 50vh;
+    align-items: center;
+}
+
+.contact-us-text > h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 50px;
+}
+
+.contact-us-text > p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.contact-us-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-form .btn-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding-right: 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.contact-us-form .btn-second > img{
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+}
+
+.contact-us-form input[type=email]{
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.475);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-us-form > input[type=submit]{
+    font-size: 16px;
+    padding: 10px 70px;
+    background-color: #007562;
+    border-color: #007562;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+/* -----------------------
+    Sponsor Area Section
+    ------------------------ */
+.partners{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.partners-text-title > h1{
+    font-weight: 700;
+    font-size: 2.813rem;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.partners-text-description > p{
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.partners-images{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+}
+
+.partner-img{
+    /* This attribute is use for filtering an image */
+    filter: grayscale(100%);
+}
+
+.partner-img:hover{
+    filter: grayscale(0%);
+    transition: all 1s ease;
+}
+
+/* -----------------
+    Footer Area Section
+    ---------------------- */
+.footer{
+    width: 100%;
+    margin-top: 130px;
+    margin-bottom: 200px;
+}
+
+.footer-area{
+    background: #FFF4E7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 0 240px;
+}
+
+.footer-area > p{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+    padding: 40px 0;
+}
+
+/* ---------------
+    Media Quaries
+    ----------------- */
+
+/* For Mobile Screen  */
+@media only screen and (max-width:767px) {
+
+    /* Header Section  */
+    main{
+    padding: 0;
+    }
+
+    .header-area{
+        flex-direction: column;
+    }
+
+    .logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo > h1{
+        font-size: 25px;
+    }
+
+    .navbar > ul{
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    /* Brand New Section  */
+
+    .brand-new-title > h1{
+        font-size: 35px;
+    }
+
+    /* Banner Section  */
+
+    .banner-area-image{
+        text-align: center;
+    }
+
+    .banner-area-image > img{
+        width: 345px;
+        height: 200px;
+    }
+
+    /* Quick List Section  */
+
+    .quick-list-area{
+        flex-direction: column;
+    }
+
+    .quick-list-image{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .list-title{
+        text-align: center;
+    }
+
+    .list-description{
+        text-align: center;
+    }
+
+    .list-button{
+        text-align: center;
+    }
+    .list-title > h3{
+        font-size: 30px;
+    }
+
+
+    /* Feature Section  */
+
+    .feature-area{
+        flex-direction: column;
+    }
+
+    .feature-text-title{
+        text-align: center;
+    }
+
+    .feature-text-title > h1{
+        font-size: 30px;
+        border-right: 5px solid #FF900E;
+    }
+
+    .feature-text-description{
+        text-align: center;
+    }
+
+    .feature-content-box-title{
+        text-align: center;
+    }
+
+    .feature-content-box-description{
+        text-align: center;
+    }
+
+    .feature-image > img{
+        width: 300px;
+    }
+
+    .feature-image-area-text{
+        padding: 25px;
+        bottom: -40px;
+        left: 45px;
+    }
+
+
+    .feature-image-area-text > h1{
+        font-size: 40px;
+    }
+
+    .feature-image-area-text > p{
+        font-size: 20px;
+    }
+
+
+    /* Some Facts Section  */
+
+    .some-facts-area{
+        margin: 0;
+    }
+
+    .some-facts-text > h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .some-facts-text > p {
+        text-align: center;
+    }
+
+    .some-facts-text > p > br {
+        display: none;
+    }
+
+    .some-facts-icon{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .some-facts-icon-box{
+        width: 70%;
+        transition: transform 1s;
+        background-color: #FFFF;
+    }
+
+    .some-facts-icon-box:hover{
+        transform: scale(1.3);
+    }
+
+    /* Contact Us Area Section  */
+    .contact-us-area{
+        margin: 0;
+        flex-direction: column;
+        gap: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .contact-us-text > h1{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contact-us-text > p{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* Partnars Section  */
+
+    .partners-text-title > h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .partners-text-description > p{
+        text-align: center;
+    }
+
+    .partners-text-description > p > br{
+        display: none;
+    }
+
+    .partners-images{
+        gap: 35px;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Footer Section  */
+    .footer{
+    margin-bottom: 50px;
+    }
+
+    .footer-area{
+        margin: 0;
+    }
+}
+
+/* For Tablet Screen  */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    
+}
+
+/* For Desktop Screen  */
+@media only screen and (min-width: 1024px) {
+    
+}
