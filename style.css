@@ -118,6 +118,10 @@ margin-bottom: 30px;
     padding-bottom: 45px;
 }
 
+.banner-area-image > img{
+    width: 100%;
+}
+
 /* -----------------
     Quick List Area Section
     ------------------------- */
